@@ -1,5 +1,9 @@
 import Image from 'next/image';
 
 export default function Home() {
-    return <>Hello. Nextjs!</>;
+    return (
+        <>
+            <h2>Welcome!</h2>
+        </>
+    );
 }
